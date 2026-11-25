@@ -1,0 +1,23 @@
+# Terraform downloaded files
+.terraform/
+**/.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variable secrets
+terraform.tfvars
+*.auto.tfvars
+
+# AWS installer
+awscliv2.zip
+
+# Private keys
+*.pem
+*.key
+
+# Secrets
+.env
